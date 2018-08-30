@@ -1,0 +1,27 @@
+{
+    "name": "devgeniem/wp-gravityforms-db-prevent",
+    "type": "wordpress-plugin",
+    "description": "A Gravity Forms plugin to let the form creator decide if the values should be saved to database or not.",
+    "authors": [
+        {
+            "name": "Miika Arponen",
+            "email": "miika@geniem.com",
+            "homepage": "https://geniem.com/",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "wordpress", "gravity forms"
+    ],
+    "license": "GPL-3.0",
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+			"type": "composer",
+			"url": "https://wpackagist.org"
+		}
+    ],
+    "require": {
+        "php": ">=7.0"
+    }
+}
