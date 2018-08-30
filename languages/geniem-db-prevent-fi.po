@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms Prevent Database Storing\n"
+"POT-Creation-Date: 2018-08-30 15:32+0300\n"
+"PO-Revision-Date: 2018-08-30 15:34+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: plugin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: plugin.php:57 plugin.php:100
+msgid "Prevent database storing"
+msgstr "Estä tietokantaan tallentaminen"
+
+#: plugin.php:101
+msgid ""
+"When enabled, the form entry will be deleted from the database as soon as "
+"the emails are sent."
+msgstr ""
+"Kun asetus on päällä, lomakevastaukset poistetaan tietokannasta heti kun "
+"niihin liittyvät sähköpostit on lähetetty."
+
+#. Plugin Name of the plugin/theme
+msgid "Gravity Forms Prevent Database Storing"
+msgstr "Gravity Forms Estä tietokantaan tallennus"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/devgeniem/wp-gravityforms-db-prevent"
+msgstr "https://github.com/devgeniem/wp-gravityforms-db-prevent"
+
+#. Description of the plugin/theme
+msgid ""
+"A Gravity Forms plugin to let the form creator decide if the values should "
+"be saved to database or not."
+msgstr ""
+"Gravity Forms -lisäosa, joka antaa lomakkeen tekijälle mahdollisuuden "
+"valita tallentuvatko lomakevastaukset tietokantaan vai eivät."
+
+#. Author of the plugin/theme
+msgid "Geniem"
+msgstr "Geniem"
+
+#. Author URI of the plugin/theme
+msgid "http://www.geniem.fi/"
+msgstr "http://www.geniem.fi/"
