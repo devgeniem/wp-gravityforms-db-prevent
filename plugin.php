@@ -32,6 +32,14 @@ class GF_DB_Prevent {
      * Constructor to initialize things
      */
     public function __construct() {
+        add_action('init', [ $this, 'init' ], 5);
+    }
+
+    /**
+     * add filters
+     * @return void
+     */
+    public function init() {
         add_filter( 'gform_form_settings',          [ $this, 'form_setting' ],    10, 2 );
         add_filter( 'gform_tooltips',               [ $this, 'add_tooltip' ],     10, 1 );
         add_filter( 'gform_pre_form_settings_save', [ $this, 'save_setting' ],    10, 1 );
