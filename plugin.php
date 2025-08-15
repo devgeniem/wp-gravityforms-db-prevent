@@ -3,7 +3,7 @@
  * Plugin Name: Gravity Forms Prevent Database Storing
  * Plugin URI:  https://github.com/devgeniem/wp-gravityforms-db-prevent
  * Description: A Gravity Forms plugin to let the form creator decide if the values should be saved to database or not.
- * Version:     0.0.2
+ * Version:     0.0.3
  * Author:      Geniem
  * Author URI:  http://www.geniem.fi/
  * License:     GPL3
