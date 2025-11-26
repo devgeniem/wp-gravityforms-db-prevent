@@ -44,7 +44,7 @@ class GF_DB_Prevent {
         add_filter( 'gform_tooltips',               [ $this, 'add_tooltip' ],     10, 1 );
         add_filter( 'gform_pre_form_settings_save', [ $this, 'save_setting' ],    10, 1 );
         add_filter( 'gform_after_submission',       [ $this, 'delete_entry' ],    10, 2 );
-        add_action( 'plugins_loaded',               [ $this, 'load_textdomain' ], 10 );
+        add_action( 'init',                         [ $this, 'load_textdomain' ], 10 );
     }
 
     /**
